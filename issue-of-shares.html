@@ -11,10 +11,20 @@
 <header class="topbar">
 <div class="topbar-inner">
 <a class="brand" href="index.html">Small Business <span>Accounting UK</span></a>
-<a class="btn btn-sm" href="https://xactaccountants.co.uk/issue-of-shares/">Get help with your filing</a>
+<nav class="desktop-nav" aria-label="Main">
+<a href="index.html">Home</a>
+<a href="restoration.html">Restoration</a>
+<a href="strike-off.html">Strike Off</a>
+<a href="confirmation-statement.html">Confirmation Statement</a>
+<a href="company-secretary.html">Company Secretary</a>
+</nav>
+<div class="header-actions">
+<a class="btn btn-sm" href="https://xactaccountants.co.uk/">Get help with your filing</a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu"><span></span><span></span><span></span></button>
 </div>
-<nav class="main"><div class="wrap">
-<a href="index.html">Corporate Services</a>
+</div>
+<div class="mobile-menu" id="site-menu" hidden>
+<a href="index.html">Home</a>
 <a href="restoration.html">Restoration</a>
 <a href="strike-off.html">Strike Off</a>
 <a href="confirmation-statement.html">Confirmation Statement</a>
@@ -25,15 +35,16 @@
 <a href="issue-of-shares.html" class="active">Issue of Shares</a>
 <a href="transfer-of-shares.html">Transfer of Shares</a>
 <a href="company-name-change.html">Name Change</a>
-</div></nav>
+</div>
 </header>
 <section class="hero"><div class="hero-inner">
 <div class="hero-copy">
 <p class="eyebrow">Companies House · Form SH01</p>
 <h1>How to Issue Shares in a Small Limited Company</h1>
+<p class="hero-byline">A guide by Xact+ Accountants</p>
 <p class="hero-sub">Form SH01, authority to allot, pre-emption rights, and the statement of capital.</p>
 <div class="hero-cta">
-<a class="btn" href="https://xactaccountants.co.uk/issue-of-shares/">Get help with your filing</a>
+<a class="btn" href="https://xactaccountants.co.uk/issue-of-shares/">Get help from Xact+ Accountants</a>
 <a class="hero-link" href="#guide">Read the guide below</a>
 </div>
 <p class="trust-line"><strong>Free guide</strong> · Plain English · No sign-up needed</p>
@@ -82,8 +93,8 @@
 
 <aside class="cta cta-mid">
 <p class="cta-title">Issuing shares to bring in an investor?</p>
-<p>See the <a href="https://xactaccountants.co.uk/issue-of-shares/">issue of shares service</a>, or talk to <a href="https://xactaccountants.co.uk/">a UK corporate services firm</a> about your company.</p>
-<a class="btn btn-light" href="https://xactaccountants.co.uk/issue-of-shares/">Get help with your filing</a>
+<p>See the <a href="https://xactaccountants.co.uk/issue-of-shares/">issue of shares service</a>, or talk to <a href="https://xactaccountants.co.uk/">Xact+ Accountants</a> about your company.</p>
+<a class="btn btn-light" href="https://xactaccountants.co.uk/issue-of-shares/">Get help from Xact+ Accountants</a>
 </aside>
 
 <section class="steps">
@@ -154,9 +165,9 @@
 
 <aside class="cta cta-bottom">
 <p class="cta-title">Not sure which route applies to your company?</p>
-<p>Talk to a UK corporate services firm about your filing, and get it done properly and on time.</p>
+<p>Talk to Xact+ Accountants about your filing, and get it done properly and on time.</p>
 <div class="cta-actions">
-<a class="btn" href="https://xactaccountants.co.uk/">Talk to a UK corporate services firm</a>
+<a class="btn" href="https://xactaccountants.co.uk/">Talk to Xact+ Accountants</a>
 <a class="btn btn-outline-light" href="https://xactaccountants.co.uk/issue-of-shares/">See the issue of shares service</a>
 </div>
 </aside>
@@ -164,7 +175,7 @@
 <footer class="site"><div class="inner">
 <div>
 <h2>Small Business Accounting UK</h2>
-<p>A free UK guide to Companies House services: company restoration, strike off, confirmation statements, company secretary, dormant accounts, self-assessment, directors, shares and name changes.</p>
+<p>A free UK guide to Companies House services from Xact+ Accountants: company restoration, strike off, confirmation statements, company secretary, dormant accounts, self-assessment, directors, shares and name changes.</p>
 <p><a href="https://xactaccountants.co.uk/">xactaccountants.co.uk</a></p>
 </div>
 <div>
@@ -182,7 +193,11 @@
 <li><a href="company-name-change.html">Name Change</a></li>
 </ul>
 </div>
-<p class="foot-note">Small Business Accounting UK is a free guide for UK small businesses. For the full service, visit <a href="https://xactaccountants.co.uk/">xactaccountants.co.uk</a>.</p>
+<p class="foot-note">Small Business Accounting UK is a free guide for UK small businesses, from Xact+ Accountants. For the full service, visit <a href="https://xactaccountants.co.uk/">xactaccountants.co.uk</a>.</p>
 </div></footer>
+
+<script>
+(function(){var b=document.querySelector('.menu-toggle'),m=document.getElementById('site-menu');if(!b||!m)return;b.addEventListener('click',function(){var open=m.hidden;m.hidden=!open;b.setAttribute('aria-expanded',String(open));b.classList.toggle('open',open);});m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.hidden=true;b.setAttribute('aria-expanded','false');b.classList.remove('open');}});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden){m.hidden=true;b.setAttribute('aria-expanded','false');b.classList.remove('open');}});})();
+</script>
 </body>
 </html>
