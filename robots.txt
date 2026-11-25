@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xactaccountants.github.io/small-business-accounting-uk/sitemap.xml
